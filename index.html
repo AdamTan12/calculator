@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CALC (short for calculator)</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <main>
+            <div id="calc">
+                <div id="display"></div>
+                <div id="keypad">
+                    <button type="button" onclick="handleDigit('7')">7</button>
+                    <button type="button" onclick="handleDigit('8')">8</button>
+                    <button type="button" onclick="handleDigit('9')">9</button>
+                    <button type="button" onclick="add()">+</button>
+                    <button type="button" onclick="handleDigit('4')">4</button>
+                    <button type="button" onclick="handleDigit('5')">5</button>
+                    <button type="button" onclick="handleDigit('6')">6</button>
+                    <button type="button" onclick="minus()">-</button>
+                    <button type="button" onclick="handleDigit('1')">1</button>
+                    <button type="button" onclick="handleDigit('2')">2</button>
+                    <button type="button" onclick="handleDigit('3')">3</button>
+                    <button type="button" onclick="multiply()">x</button>
+                    <button type="button" onclick="clearAll()">C</button>
+                    <button type="button" onclick="handleDigit('0')">0</button>
+                    <button type="button" onclick="equal()">=</button>
+                    <button type="button" onclick="divide()">/</button>                       
+                </div>
+            </div>
+        </main>
+        <footer>
+            <script src="script.js"></script>
+        </footer>
+    </body>
+</html>

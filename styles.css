@@ -1,0 +1,44 @@
+#calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-style: solid;    
+    border-color: black;
+    border-radius: 10px;
+    border-width: 5px;
+    width: 500px;
+    height: 400px;
+}
+#display {
+    width: 350px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
+#keypad {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: rgb(100, 145, 200);
+    color: white;
+    width: 80px;
+    height: 60px;
+    border-radius: 20%;
+    margin: 5px;
+    font-size: 24px;
+}
